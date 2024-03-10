@@ -39,7 +39,7 @@ public class Main {
                 cozrobic(parasol, autobus);*/
 
 
-/*                Scanner scanner = new Scanner(System.in);                                 zadanie 5 nie dziala tak jak powinno
+/*                Scanner scanner = new Scanner(System.in);                                 zadanie 5 
                 System.out.println("Posiadasz znizke?");
                 String czyZni = scanner.nextLine();
                 boolean znizka = czyZni.equals("tak")? true : false;
@@ -84,16 +84,21 @@ public class Main {
                         }
                 }*/
 
-/*               public static void kupnoAuta(boolean znizka, boolean premia){              zadanie 5 nie dziala tak jak powinno
-                   if(!znizka || premia){
-                       System.out.println("mozesz kupic samochod, znizki na samochod nie ma");
-                   }
-                   else if(!znizka || !premia){
-                       System.out.println("zakup samochod trzeba odlozyc na pozniej, znizki nie ma");
-                   }
-                   else if(znizka || premia){
-                       System.out.println("mozesz kupic samochod");
-                   }
+/*                public static void kupnoAuta(boolean znizka, boolean premia){            zadanie 5
+                       if(!znizka){
+                           if(premia){
+                               System.out.println("mozesz kupic samochod");
+                               System.out.println("znizki na samochod nie ma");
+                           }
+                           else if(!premia){
+                               System.out.println("zakup samochodu trzeba odlozyc na pozniej");
+                               System.out.println("znizki na samochod nie ma");
+                           }
+                       }
+                       else if(znizka || premia){
+                           System.out.println("mozesz kupic samochod");
+                       }
+               }
                }*/
 
 /*                public static void cozrobic(boolean parasol, boolean autobus){            zadanie 4
