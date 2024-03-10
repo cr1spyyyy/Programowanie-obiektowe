@@ -39,7 +39,7 @@ public class Main {
                 cozrobic(parasol, autobus);*/
 
 
-/*                Scanner scanner = new Scanner(System.in);                                 zadanie 5 nie dziala
+/*                Scanner scanner = new Scanner(System.in);                                 zadanie 5 nie dziala tak jak powinno
                 System.out.println("Posiadasz znizke?");
                 String czyZni = scanner.nextLine();
                 boolean znizka = czyZni.equals("tak")? true : false;
