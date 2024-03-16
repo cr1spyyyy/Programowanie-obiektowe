@@ -61,8 +61,32 @@ public class Main {
         }*/
 
 
-    }
+        /*        int[] tab = new int[5];                           zadanie 6
+        int[] tab2 = new int[5];
+        for(int i = 0;i<5;i++){
+            System.out.println("podaj "+(i+1)+" liczbe");
+            int liczba = scanner.nextInt();
+            tab[i]=liczba;
+        }
 
+        for(int i = 0;i<5;i++){
+            int wartosc = tab[i];
+            tab2[i]=silnia(wartosc);
+        }
+        for(int i : tab2){
+            System.out.println(i);
+        }*/
+
+    }
+/*        public static int silnia(int wartosc){                zadanie 6 oblicznaie silni
+            if(wartosc==0){
+                return 1;
+            }
+            else{
+                return wartosc*silnia(wartosc-1);
+            }
+
+        }*/
 
 /*    public static int losuj(){                            metoda losujaca do zadania 1
         Random random = new Random();
