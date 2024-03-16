@@ -77,7 +77,49 @@ public class Main {
             System.out.println(i);
         }*/
 
+
+
+
+        /*        String[] tab1 = new String[3];                            zadanie 7
+        String[] tab2 = new String[3];
+        for(int i=0;i<3;i++){
+            System.out.println("podaj "+(i+1)+" wyraz 1 tablicy");
+            String wyraz = scanner.nextLine();
+            tab1[i]=wyraz;
+        }
+        for(int i=0;i<3;i++){
+            System.out.println("podaj "+(i+1)+" wyraz 2 tablicy");
+            String wyraz = scanner.nextLine();
+            tab2[i]=wyraz;
+        }
+        if(porownanie(tab1, tab2)){
+            System.out.println("tablice sa takie same");
+        }
+        else {
+            System.out.println("tablice nie sa takie same");
+        }*/
+
+        
     }
+
+
+    /*            public static boolean porownanie(String[] tab1, String[] tab2){           zadanie 7 porownanie tablic
+                int d1 = tab1.length;
+                int d2 = tab1.length;
+                if(!(d1==d2)){
+                    return false;
+                }
+
+                for(int i = 0; i<d1;i++){
+                    if(!tab1[i].equals(tab2[i])){
+                        return false;
+                    }
+                }
+                return true;
+            }*/
+
+
+    
 /*        public static int silnia(int wartosc){                zadanie 6 oblicznaie silni
             if(wartosc==0){
                 return 1;
